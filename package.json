@@ -1,0 +1,22 @@
+{
+  "name": "minista-rest-server",
+  "version": "0.0.1",
+  "description": "REST server for minista app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.12",
+    "mongoose-bcrypt": "^1.6.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "validator": "^11.0.0"
+  },
+  "devDependencies": {}
+}
